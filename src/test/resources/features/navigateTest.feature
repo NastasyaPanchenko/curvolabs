@@ -9,6 +9,7 @@ Feature: Verification links on Main page
     When I click on <Link> link on Main menu
     Then I verify the url <Url>
     And I verify the title <Title>
+    And I verify the title <Title2>
 
     Examples:
       | Link            | Url                                      | Title                                                                    |
